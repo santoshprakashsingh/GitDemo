@@ -17,6 +17,7 @@ public class AppTest1
      */
     public AppTest1( String testName )
     {
+    	System.out.println("Git Test");
         super( testName );
     }
 
@@ -26,6 +27,7 @@ public class AppTest1
     public static Test suite()
     {
     	System.out.println("From test suite");
+    	System.out.println("Modified by Santosh User");
         return new TestSuite( AppTest1.class );
     }
 
