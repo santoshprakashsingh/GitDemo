@@ -18,7 +18,7 @@ public class AppTest1
     public AppTest1( String testName )
     {
     	System.out.println("Git Test");
-        super( testName );
+  //      super( testName );
     }
 
     /**
